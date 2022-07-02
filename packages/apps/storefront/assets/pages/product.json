@@ -1,0 +1,27 @@
+{
+  "layout": [
+    {
+      "components": [
+        "_HelloWorld"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Hello World - Product Page"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "product",
+  "title": "Hello World - Product Page",
+  "shortName": "product",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "product"
+    }
+  }
+}

@@ -1,0 +1,5 @@
+**/node_modules
+**/dist
+**/docs
+**/test-results
+packages/tools/cli/templates/__test__/expected-files/**

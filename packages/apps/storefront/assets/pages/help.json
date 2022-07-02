@@ -1,0 +1,28 @@
+{
+  "layout": [
+    {
+      "components": [
+        "_HelloWorld"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Hello World - Help Page"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "help",
+  "allowCustomAddress": true,
+  "title": "Hello World - Help Page",
+  "shortName": "Article",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "help"
+    }
+  }
+}

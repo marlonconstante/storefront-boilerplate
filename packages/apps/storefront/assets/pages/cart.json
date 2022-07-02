@@ -1,0 +1,27 @@
+{
+  "layout": [
+    {
+      "components": [
+        "_HelloWorld"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Hello World - Cart Page"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "cart",
+  "title": "Hello World - Cart Page",
+  "shortName": "cart",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "cart"
+    }
+  }
+}

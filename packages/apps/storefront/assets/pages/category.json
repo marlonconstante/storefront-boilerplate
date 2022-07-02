@@ -1,0 +1,27 @@
+{
+  "layout": [
+    {
+      "components": [
+        "_HelloWorld"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Hello World - Category Page"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "category",
+  "title": "Hello World - Category Page",
+  "shortName": "category",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "category"
+    }
+  }
+}

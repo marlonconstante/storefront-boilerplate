@@ -1,0 +1,27 @@
+{
+  "layout": [
+    {
+      "components": [
+        "Error"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Error 404 - Not Found"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "404",
+  "title": "Error 404 - Not Found",
+  "shortName": "404",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "404"
+    }
+  }
+}

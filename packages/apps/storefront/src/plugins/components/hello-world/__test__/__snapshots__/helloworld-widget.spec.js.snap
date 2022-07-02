@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<HelloWorld/> unit/widget level testing with @testing-library/react 1`] = `
+<div>
+  <style
+    data-component="HelloWorld"
+  />
+  <div
+    class="HelloWorld"
+  >
+    Hello World
+  </div>
+</div>
+`;

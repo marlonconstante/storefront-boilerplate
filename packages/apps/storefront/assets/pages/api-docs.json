@@ -1,0 +1,28 @@
+{
+  "layout": [
+    {
+      "components": [
+        "progress-bar",
+        "Visualizer"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "OSF API Documentation"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "__api-docs",
+  "title": "OSF API Documentation",
+  "shortName": "api-docs",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "api-docs"
+    }
+  }
+}

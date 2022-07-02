@@ -1,0 +1,27 @@
+{
+  "layout": [
+    {
+      "components": [
+        "_HelloWorld"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Hello World - Registration Page"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "registration",
+  "title": "Hello World - Registration Page",
+  "shortName": "registration",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "registration"
+    }
+  }
+}

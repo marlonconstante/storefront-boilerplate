@@ -1,0 +1,3 @@
+{
+  "extends": "@oracle-cx-commerce/stylelint-config"
+}

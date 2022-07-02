@@ -1,0 +1,27 @@
+{
+  "layout": [
+    {
+      "components": [
+        "Error"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Error 401 - Unauthorized"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "401",
+  "title": "Error 401 - Unauthorized",
+  "shortName": "401",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "401"
+    }
+  }
+}

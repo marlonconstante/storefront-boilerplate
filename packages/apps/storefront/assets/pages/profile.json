@@ -1,0 +1,29 @@
+{
+  "layout": [
+    {
+      "components": [
+        "_HelloWorld"
+      ],
+      "width": 12,
+      "type": "main"
+    }
+  ],
+  "settings": {
+    "pageDisplayName": {
+      "en": {
+        "pageDisplayName": "Hello World - Profile Page"
+      }
+    }
+  },
+  "defaultPage": true,
+  "address": "profile",
+  "allowCustomAddress": true,
+  "title": "Hello World - Profile Page",
+  "shortName": "profile",
+  "pageTypeDisplayName": {
+    "en": {
+      "pageTypeDisplayName": "profile"
+    }
+  },
+  "secured": true
+}

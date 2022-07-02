@@ -1,0 +1,7 @@
+**/node_modules
+**/dist
+**/docs
+**/test-results
+*.config.js
+**/config/app-config
+**/__test__/expected-files/*

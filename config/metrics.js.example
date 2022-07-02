@@ -1,0 +1,14 @@
+/*
+ ** Copyright (c) 2021 Oracle and/or its affiliates.
+ */
+
+module.exports = {
+  performance: {
+    inboundRequests: {
+      buckets: [0.003, 0.01, 0.03, 0.1, 0.3, 1.0, 3.0, 10.0]
+    },
+    outboundRequests: {
+      buckets: [0.006, 0.01, 0.03, 0.06, 0.1, 0.3, 0.6, 1.0, 3.0, 6.0, 10.0]
+    }
+  }
+};
