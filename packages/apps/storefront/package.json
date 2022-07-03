@@ -25,8 +25,8 @@
       "subscribers": "src/plugins/subscribers"
     },
     "locales": [
-      "en",
-      "de"
+      "pt-BR",
+      "en"
     ],
     "aliases": {
       "@oracle-cx-commerce/styles": "storefront/src/core/ui/styles"
