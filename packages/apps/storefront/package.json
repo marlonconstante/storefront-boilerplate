@@ -5,16 +5,17 @@
   "description": "Based on v3.4.0 of @oracle-cx-commerce/blank-store",
   "dependencies": {
     "@oracle-cx-commerce/actions": "3.4.0",
+    "@oracle-cx-commerce/commerce-utils": "3.4.0",
     "@oracle-cx-commerce/endpoints": "3.4.0",
     "@oracle-cx-commerce/react-app": "3.4.0",
     "@oracle-cx-commerce/react-components": "3.4.0",
     "@oracle-cx-commerce/react-widgets": "3.4.0",
     "@oracle-cx-commerce/styles": "3.4.0",
-    "@oracle-cx-commerce/subscribers": "3.4.0",
-    "@oracle-cx-commerce/commerce-utils": "3.4.0"
+    "@oracle-cx-commerce/subscribers": "3.4.0"
   },
   "devDependencies": {
-    "@oracle-cx-commerce/rollup-config": "3.4.0"
+    "@oracle-cx-commerce/rollup-config": "3.4.0",
+    "eslint-import-resolver-alias": "^1.1.2"
   },
   "occ": {
     "namespace": "occ.react",

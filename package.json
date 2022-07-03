@@ -52,7 +52,8 @@
     "@oracle-cx-commerce/cli": "3.4.0"
   },
   "devDependencies": {
-    "@oracle-cx-commerce/dev": "3.4.0"
+    "@oracle-cx-commerce/dev": "3.4.0",
+    "babel-plugin-module-resolver": "^4.1.0"
   },
   "workspaces": [
     "packages/**"

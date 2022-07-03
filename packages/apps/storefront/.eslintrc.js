@@ -8,5 +8,18 @@
 /* eslint-env node */
 module.exports = {
   extends: '@oracle-cx-commerce/eslint-config/apps',
-  env: {node: true}
+  settings: {
+    'import/resolver': {
+      alias: {
+        map: [
+          ['@core', 'storefront/src/core'],
+          ['@plugins', 'storefront/src/plugins']
+        ],
+        extensions: ['.js', '.jsx', '.ts', '.tsx']
+      }
+    }
+  },
+  env: {
+    node: true
+  }
 };

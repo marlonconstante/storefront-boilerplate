@@ -11,6 +11,15 @@
       "ESNext",
       "DOM"
     ],
+    "baseUrl": ".",
+    "paths": {
+      "@core/*": [
+        "packages/apps/storefront/src/core/*"
+      ],
+      "@plugins/*": [
+        "packages/apps/storefront/src/plugins/*"
+      ],
+    },
     "allowJs": true,
     "checkJs": false,
     "noEmit": true
