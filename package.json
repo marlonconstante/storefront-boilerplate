@@ -1,6 +1,6 @@
 {
   "name": "@oracle-cx-commerce/workspace",
-  "version": "3.6.0",
+  "version": "3.4.0",
   "private": true,
   "scripts": {
     "stylelint": "stylelint **/*.css --ignore-disables",
@@ -49,10 +49,10 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "@oracle-cx-commerce/cli": "3.6.0"
+    "@oracle-cx-commerce/cli": "3.4.0"
   },
   "devDependencies": {
-    "@oracle-cx-commerce/dev": "3.6.0"
+    "@oracle-cx-commerce/dev": "3.4.0"
   },
   "workspaces": [
     "packages/**"
