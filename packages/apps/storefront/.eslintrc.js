@@ -7,7 +7,12 @@
  */
 /* eslint-env node */
 module.exports = {
-  extends: '@oracle-cx-commerce/eslint-config/apps',
+  extends: [
+    '@oracle-cx-commerce/eslint-config/apps',
+    'plugin:@typescript-eslint/eslint-recommended',
+    'plugin:@typescript-eslint/recommended'
+  ],
+  parser: '@typescript-eslint/parser',
   settings: {
     'import/resolver': {
       alias: {
@@ -18,6 +23,19 @@ module.exports = {
         extensions: ['.js', '.jsx', '.ts', '.tsx']
       }
     }
+  },
+  rules: {
+    '@typescript-eslint/no-var-requires': 'off',
+    'import/extensions': [
+      'error',
+      'ignorePackages',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never'
+      }
+    ]
   },
   env: {
     node: true

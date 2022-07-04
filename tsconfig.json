@@ -18,7 +18,7 @@
       ],
       "@plugins/*": [
         "packages/apps/storefront/src/plugins/*"
-      ],
+      ]
     },
     "allowJs": true,
     "checkJs": false,
