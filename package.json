@@ -46,7 +46,9 @@
     "create-selector": "occ create-selector",
     "create-endpoint": "occ create-endpoint",
     "create-app": "occ create-app",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "storybook": "yarn --cwd packages/apps/storefront storybook",
+    "build-storybook": "yarn --cwd packages/apps/storefront build-storybook"
   },
   "dependencies": {
     "@oracle-cx-commerce/cli": "3.4.0"

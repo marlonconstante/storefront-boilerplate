@@ -2,7 +2,7 @@
   "name": "storefront",
   "version": "0.1.0",
   "private": true,
-  "description": "Based on v3.4.0 of @oracle-cx-commerce/blank-store",
+  "description": "Open Storefront Framework Application",
   "dependencies": {
     "@oracle-cx-commerce/actions": "3.4.0",
     "@oracle-cx-commerce/commerce-utils": "3.4.0",
@@ -14,11 +14,25 @@
     "@oracle-cx-commerce/subscribers": "3.4.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.6",
     "@oracle-cx-commerce/rollup-config": "3.4.0",
-    "eslint-import-resolver-alias": "^1.1.2"
+    "@storybook/addon-actions": "^6.5.9",
+    "@storybook/addon-essentials": "^6.5.9",
+    "@storybook/addon-interactions": "^6.5.9",
+    "@storybook/addon-links": "^6.5.9",
+    "@storybook/builder-webpack4": "^6.5.9",
+    "@storybook/manager-webpack4": "^6.5.9",
+    "@storybook/react": "^6.5.9",
+    "@storybook/testing-library": "^0.0.13",
+    "@typescript-eslint/eslint-plugin": "^5.30.4",
+    "@typescript-eslint/parser": "^5.30.4",
+    "babel-loader": "^8.2.5",
+    "eslint-import-resolver-alias": "^1.1.2",
+    "eslint-plugin-prettier": "^4.2.1"
   },
   "occ": {
     "namespace": "occ.react",
+    "typescript": true,
     "plugins": {
       "actions": "src/plugins/actions",
       "components": "src/plugins/components",
@@ -32,5 +46,9 @@
     "aliases": {
       "@oracle-cx-commerce/styles": "storefront/src/core/ui/styles"
     }
+  },
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   }
 }
