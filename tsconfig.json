@@ -30,6 +30,7 @@
   "exclude": [
     "**/docs/*",
     "**/node_modules/*",
-    "**/dist/*"
+    "**/dist/*",
+    "**/*.stories.tsx"
   ]
 }

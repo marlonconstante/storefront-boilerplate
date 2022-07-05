@@ -28,7 +28,8 @@
     "@typescript-eslint/parser": "^5.30.4",
     "babel-loader": "^8.2.5",
     "eslint-import-resolver-alias": "^1.1.2",
-    "eslint-plugin-prettier": "^4.2.1"
+    "eslint-plugin-prettier": "^4.2.1",
+    "rollup-plugin-typescript2": "^0.32.1"
   },
   "occ": {
     "namespace": "occ.react",
