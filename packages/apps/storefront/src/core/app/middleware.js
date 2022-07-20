@@ -1,7 +1,7 @@
 /*
  ** Copyright (c) 2020 Oracle and/or its affiliates.
  */
-import {parseMetaData} from './metadata-parser';
+import { parseMetaData } from './metadata-parser';
 import * as indexHtml from './index.html';
 
 /*
@@ -28,7 +28,7 @@ export default app => {
       if (req.url.includes('__api')) {
         const {
           meta,
-          options: {appName, getOriginAppName}
+          options: { appName, getOriginAppName }
         } = req.app.locals;
 
         // Ensure `additionalState` is an array

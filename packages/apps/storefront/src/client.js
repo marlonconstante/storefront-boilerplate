@@ -2,7 +2,7 @@
  ** Copyright (c) 2020 Oracle and/or its affiliates.
  */
 
-import {createClient} from '@oracle-cx-commerce/react-app/client';
+import { createClient } from '@oracle-cx-commerce/react-app/client';
 import * as actions from './plugins/actions';
 import * as components from './plugins/components';
 import * as endpoints from './plugins/endpoints';

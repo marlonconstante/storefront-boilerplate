@@ -125,16 +125,16 @@ export function createWidgetConfig(properties) {
 
   properties.forEach(property => {
     settings.properties.push(property.getDefinitionSettings());
-    settings.resources = {...settings.resources, ...property.getLocaleResources()};
+    settings.resources = { ...settings.resources, ...property.getLocaleResources() };
   });
 
-  const {resources} = settings;
+  const { resources } = settings;
 
   return {
     properties: settings.properties,
     locales: {
-      'pt-BR': {resources},
-      en: {resources}
+      'pt-BR': { resources },
+      en: { resources }
     }
   };
 }
