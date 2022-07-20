@@ -3,7 +3,7 @@
   "version": "3.4.0",
   "private": true,
   "scripts": {
-    "stylelint": "stylelint **/*.css --ignore-disables",
+    "stylelint": "stylelint **/*.css --ignore-disables --allow-empty-input",
     "eslint": "eslint .",
     "eslint:fix": "eslint --fix .",
     "prettier:fix": "prettier --config .prettierrc.js --write \"{packages,qa}/**/*.js\"",
