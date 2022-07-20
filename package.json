@@ -8,6 +8,8 @@
     "eslint:fix": "eslint --fix .",
     "prettier:fix": "prettier --config .prettierrc.js --write \"{packages,qa}/**/*.js\"",
     "lint": "yarn eslint && yarn stylelint",
+    "prebuild:prod": "yarn tailwind --minify",
+    "prebuild": "yarn tailwind",
     "build:prod": "occ build --production",
     "build": "occ build --watch",
     "dev": "nodemon --config nodemon-dev.json --inspect node_modules/@oracle-cx-commerce/cli/cli.js serve",
@@ -47,6 +49,7 @@
     "create-endpoint": "occ create-endpoint",
     "create-app": "occ create-app",
     "prepare": "husky install",
+    "tailwind": "yarn --cwd packages/apps/storefront tailwind",
     "storybook": "yarn --cwd packages/apps/storefront storybook",
     "build-storybook": "yarn --cwd packages/apps/storefront build-storybook"
   },

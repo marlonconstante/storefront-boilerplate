@@ -20,6 +20,7 @@
     "@storybook/addon-essentials": "^6.5.9",
     "@storybook/addon-interactions": "^6.5.9",
     "@storybook/addon-links": "^6.5.9",
+    "@storybook/addon-postcss": "2.0.0",
     "@storybook/builder-webpack4": "^6.5.9",
     "@storybook/manager-webpack4": "^6.5.9",
     "@storybook/react": "^6.5.9",
@@ -29,7 +30,8 @@
     "babel-loader": "^8.2.5",
     "eslint-import-resolver-alias": "^1.1.2",
     "eslint-plugin-prettier": "^4.2.1",
-    "rollup-plugin-typescript2": "^0.32.1"
+    "rollup-plugin-typescript2": "^0.32.1",
+    "tailwindcss": "^3.1.6"
   },
   "occ": {
     "namespace": "occ.react",
@@ -49,6 +51,7 @@
     }
   },
   "scripts": {
+    "tailwind": "tailwindcss -i tailwind.css -o public/styles/tailwind.css",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   }
