@@ -9,7 +9,7 @@
     "packages/tools/**"
   ],
   "events": {
-    "start": "yarn tailwind --watch"
+    "restart": "yarn tailwind --watch"
   },
   "delay": "250",
   "env": {
