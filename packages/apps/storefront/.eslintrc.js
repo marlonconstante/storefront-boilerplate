@@ -6,6 +6,9 @@
  * Configuration file for the ESLint utility (https://eslint.org)
  */
 /* eslint-env node */
+
+const prettierConfig = require('../../../.prettierrc');
+
 module.exports = {
   extends: [
     '@oracle-cx-commerce/eslint-config/apps',
@@ -26,6 +29,7 @@ module.exports = {
   },
   rules: {
     '@typescript-eslint/no-var-requires': 'off',
+    'prettier/prettier': ['error', prettierConfig],
     'import/extensions': [
       'error',
       'ignorePackages',

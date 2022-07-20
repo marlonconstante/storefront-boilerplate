@@ -3,5 +3,6 @@
  */
 
 module.exports = {
-  ...require('@oracle-cx-commerce/prettier-config')
+  ...require('@oracle-cx-commerce/prettier-config'),
+  bracketSpacing: true,
 };
