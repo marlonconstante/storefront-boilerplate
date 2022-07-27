@@ -12,7 +12,7 @@
     "prebuild": "yarn tailwind",
     "build:prod": "occ build --production",
     "build": "occ build --watch",
-    "predev": "node packages/apps/storefront/prebuilder.js",
+    "predev": "node packages/apps/storefront/prebuilder.js && yarn tailwind",
     "dev": "nodemon --config nodemon-dev.json --inspect node_modules/@oracle-cx-commerce/cli/cli.js serve",
     "test:int": "node --unhandled-rejections=warn node_modules/jest/bin/jest.js -c jest.config.int.js",
     "test:int:debug": "node --unhandled-rejections=warn --inspect-brk node_modules/jest/bin/jest.js -i -c jest.config.int.js",
