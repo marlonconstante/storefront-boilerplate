@@ -17,6 +17,7 @@
 **/coverage
 **/accelerator-templates/templates 
 **/docs/**
+**/public/styles/tailwind.css
 .yarncache
 *.DS_Store
 tests-temp-dir*

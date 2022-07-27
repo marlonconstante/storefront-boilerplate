@@ -1,6 +1,6 @@
 {
   "name": "@oracle-cx-commerce/workspace",
-  "version": "3.4.0",
+  "version": "3.7.0",
   "private": true,
   "scripts": {
     "stylelint": "stylelint **/*.css --ignore-disables --allow-empty-input",
@@ -12,13 +12,14 @@
     "prebuild": "yarn tailwind",
     "build:prod": "occ build --production",
     "build": "occ build --watch",
+    "predev": "node packages/apps/storefront/prebuilder.js",
     "dev": "nodemon --config nodemon-dev.json --inspect node_modules/@oracle-cx-commerce/cli/cli.js serve",
-    "test:int": "jest -c jest.config.int.js",
-    "test:int:debug": "node --inspect-brk node_modules/jest/bin/jest.js -i -c jest.config.int.js",
-    "test": "jest -c jest.config.js",
-    "test:debug": "node --inspect-brk node_modules/jest/bin/jest.js -i -c jest.config.js",
-    "test:api": "jest -c jest.config.api.js",
-    "test:api:debug": "node --inspect-brk node_modules/jest/bin/jest.js -i -c jest.config.api.js",
+    "test:int": "node --unhandled-rejections=warn node_modules/jest/bin/jest.js -c jest.config.int.js",
+    "test:int:debug": "node --unhandled-rejections=warn --inspect-brk node_modules/jest/bin/jest.js -i -c jest.config.int.js",
+    "test": "node --unhandled-rejections=warn node_modules/jest/bin/jest.js -c jest.config.js",
+    "test:debug": "node --unhandled-rejections=warn --inspect-brk node_modules/jest/bin/jest.js -i -c jest.config.js",
+    "test:api": "node --unhandled-rejections=warn node_modules/jest/bin/jest.js -c jest.config.api.js",
+    "test:api:debug": "node --unhandled-rejections=warn --inspect-brk node_modules/jest/bin/jest.js -i -c jest.config.api.js",
     "test:app:hello-world": "echo \" Place holder to run APP level Integration tests\"",
     "perf": "jest -i -c jest.config.perf.js",
     "perf:lighthouse": "jest -i -c jest.config.perf.lighthouse.js",
@@ -54,10 +55,10 @@
     "build-storybook": "yarn --cwd packages/apps/storefront build-storybook"
   },
   "dependencies": {
-    "@oracle-cx-commerce/cli": "3.4.0"
+    "@oracle-cx-commerce/cli": "3.7.0"
   },
   "devDependencies": {
-    "@oracle-cx-commerce/dev": "3.4.0",
+    "@oracle-cx-commerce/dev": "3.7.0",
     "babel-plugin-module-resolver": "^4.1.0"
   },
   "workspaces": [
