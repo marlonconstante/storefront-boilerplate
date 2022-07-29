@@ -1,3 +1,5 @@
+const plugin = require('tailwindcss/plugin');
+
 module.exports = {
   content: [
     './src/**/*.{js,ts,jsx,tsx}',
@@ -9,5 +11,13 @@ module.exports = {
       }
     }
   },
-  plugins: [],
+  plugins: [
+    plugin(function ({ addBase }) {
+      addBase({
+        'body': {
+          'font-family': 'Roboto',
+        },
+      })
+    })
+  ],
 };
