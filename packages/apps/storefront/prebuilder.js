@@ -15,6 +15,7 @@ replace({
 
 replace({
   files: 'node_modules/tailwindcss/lib/cli.js',
-  from: /result.css/g,
-  to: '`/*\\nLast build time: ${new Date().toISOString()}\\n*/\\n\\n${result.css}`'
+  from: /\(.*result.css\)/g,
+  to: match =>
+    match.replace('result.css', '`/*\\nLast build time: ${new Date().toISOString()}\\n*/\\n\\n${result.css}`')
 });

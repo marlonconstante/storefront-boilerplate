@@ -12,9 +12,9 @@ module.exports = {
     }
   },
   plugins: [
-    plugin(function ({ addBase }) {
+    plugin(({ addBase }) => {
       addBase({
-        'body': {
+        body: {
           'font-family': 'Roboto',
         },
       })
