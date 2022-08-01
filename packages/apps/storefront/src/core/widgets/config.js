@@ -23,6 +23,11 @@ export class WidgetProperty {
   static MEDIA_TYPE = 'mediaType';
 
   /**
+   * Web Content Type.
+   */
+  static WEB_CONTENT_TYPE = 'webContentType';
+
+  /**
    * Strategy Type.
    */
   static STRATEGY_TYPE = 'strategyType';
@@ -30,7 +35,7 @@ export class WidgetProperty {
   /**
    * Constructor of Widget Property.
    * @param {string} id
-   * @param {('stringType'|'numberType'|'booleanType'|'mediaType'|'strategyType')} type
+   * @param {('stringType'|'numberType'|'booleanType'|'mediaType'|'webContentType'|'strategyType')} type
    * @param {string} label
    * @param {string} description
    * @param {*} defaultValue
@@ -93,6 +98,7 @@ export class WidgetProperty {
       id: this.id,
       type: this.getType(),
       defaultValue: this.defaultValue,
+      required: this.required,
       pattern: this.getPattern(),
       dataKey: this.getDataKey(),
       labelResourceId: `${this.id}Label`,

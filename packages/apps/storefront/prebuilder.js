@@ -14,6 +14,12 @@ replace({
 });
 
 replace({
+  files: 'node_modules/@oracle-cx-commerce/react-app/server/middleware/app/local/components.js',
+  from: /const resourceContents = readHtml\(resourceFolder\);/g,
+  to: match => `${match.slice(0, -1)} || readHtml(path.join(rootLocation, propertyValue, 'index.html'));`
+});
+
+replace({
   files: 'node_modules/tailwindcss/lib/cli.js',
   from: /\(.*result.css\)/g,
   to: match =>

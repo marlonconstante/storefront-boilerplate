@@ -30,6 +30,7 @@ module.exports = {
   rules: {
     '@typescript-eslint/no-var-requires': 'off',
     'prettier/prettier': ['error', prettierConfig],
+    'react/no-danger': 'off',
     'import/extensions': [
       'error',
       'ignorePackages',

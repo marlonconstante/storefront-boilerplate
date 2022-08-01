@@ -2,7 +2,8 @@
   "layout": [
     {
       "components": [
-        "_HelloWorld"
+        "_HelloWorld",
+        "_HtmlContent"
       ],
       "width": 12,
       "type": "main"
