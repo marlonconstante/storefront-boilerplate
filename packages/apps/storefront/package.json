@@ -48,7 +48,8 @@
       "en"
     ],
     "aliases": {
-      "@oracle-cx-commerce/styles": "storefront/src/core/ui/styles"
+      "@oracle-cx-commerce/styles": "storefront/src/core/ui/styles",
+      "@oracle-cx-commerce/react-widgets/root": "storefront/src/core/widgets/root"
     }
   },
   "scripts": {
